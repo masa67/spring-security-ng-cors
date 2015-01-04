@@ -1,0 +1,16 @@
+<div class="container">
+	<div>This site requires a login. Just enter 'u' as username, 'p' for password.</div>
+	<form ng-submit="submitLoginForm()">
+		<div>
+			<label>User Name:</label>
+			<input type="text" ng-model="form.username" name="username"/>
+		</div>
+	  <div>
+	  	<label>Password:</label>
+	  	<input type="password" ng-model="form.password" name="password"/>
+	  </div>
+	  <div>
+	  	<input type="submit" value="Sign In"/>
+	  </div>
+	</form>
+</div>
